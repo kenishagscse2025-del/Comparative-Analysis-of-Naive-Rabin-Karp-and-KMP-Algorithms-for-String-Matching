@@ -75,8 +75,8 @@ def rabin_karp(text, pattern, q=101):
     return matches, comparisons
  
 # --- Main Execution ---
-text = input("Enter Text (leave empty for 'AABAACAADAABAABA'): ").strip() or 'AABAACAADAABAABA'
-pattern = input("Enter Pattern (leave empty for 'AABA'): ").strip() or 'AABA'
+text = input("Enter Text (leave empty for 'kenishags'): ").strip() or 'AABAACAADAABAABA'
+pattern = input("Enter Pattern (leave empty for 'gs'): ").strip() or 'AABA'
 print(f'Text:    {text}')
 print(f'Pattern: {pattern}')
  
